@@ -1,0 +1,554 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Roboto",Arial,sans-serif;
+  
+}
+
+.top{
+    height: 5px;
+    background-color: #2777C6;
+  }
+  .guru-sign
+  {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .button_row
+  {
+    background-color: white; /* Green */
+    border: none;
+    color: #111;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+  
+  }
+.Sol
+{
+  margin-right: 10%;
+}
+
+.Pos
+{
+  background-color: #2777C6;
+    color:white;
+    border-radius: 10%;
+}
+.button_row:hover
+  {
+   background-color: none;
+   color: #1681ec;
+   }
+
+.Pos:hover
+{
+  background-color: #033066;
+  color: white;
+}
+
+/*here first row ended */
+
+/*line after row 1 designing*/
+.after_first-hr
+{
+background-color:#2777c6;
+width: 100%;
+margin-bottom: 1%;
+}
+
+/*row 2 button designing*/
+.button_row-2
+{
+margin-top: 0%;  
+background-color: white;
+color: #9DA0A3;
+margin-left: 2%;
+margin-right: 2%;;
+border: none;
+font-size: 16px;
+}
+
+.button_row-2:hover
+{
+  text-decoration: underline;
+}
+
+/*image iwth search bar*/
+
+.blue-area-img
+{
+margin-top: 1%;
+background-color: #33404F;
+width: 100%;
+height: 585px;
+margin-bottom: 0%;
+padding-bottom: 0%;
+display: flex;
+flex-direction: row;
+}
+
+#search
+{
+width: 70%;
+}
+
+#img
+{
+  width: 30%;
+}
+
+#Find
+{
+  padding-top: 10%;
+  padding-left: 5%;
+  color: white;
+  font-size: 40px;
+}
+#h3-heading
+{
+color:white;
+padding-left: 5%;
+}
+
+#contain-3
+{
+  display: flex;
+  flex-direction: row;
+}
+#first-hr
+{
+  width: 70px;
+  padding-left: 5%;
+  color: blue;
+  margin-left: 5%;
+}
+#search-text-input{
+  border-top:thin solid  #e5e5e5;
+  border-right:thin solid #e5e5e5;
+  border-bottom:0;
+  border-left:thin solid  #e5e5e5;
+  box-shadow:0px 1px 1px 1px #e5e5e5;
+  float:left;
+  height:60px; 
+  width:400px; 
+  margin-left: 5%;
+  margin-right: 3%;
+}
+#buttons-5
+{
+  margin-left: 5%;
+  margin-top : 1%;
+}
+.button_5
+{
+background-color: #33404F;
+height: 30px;
+color: #9DA0A3;
+border-color: #9DA0A3;
+border-style: groove;
+}
+.button_5:hover
+{
+color: white;
+border-color: white;
+}
+
+#or
+{
+  color: white;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.boy
+{
+  height: 585px;
+  padding-left: 10%;
+}
+
+/*image with search bar end*/
+
+.blue-area
+{
+margin-top: 1%;
+background-color: #33404F;
+width: 100%;
+height: 585px;
+margin-bottom: 0%;
+padding-bottom: 0%;
+}
+
+/* FROM 6TH april*/
+/*after blue area*/
+/* 80000 freelancers row styling start  */
+#About
+{
+  background-color: #E4EDF7;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.about-inner
+{
+margin-left: 7%;
+margin-right: 7%;
+}
+.inner-para{
+margin-top: 0%;
+padding-top: 0%;
+font-weight: 400;
+}
+.inner-h2
+{
+  margin-bottom: 4%;
+  padding-bottom: 0%;
+}
+/* 80000 freelancers row styling end */
+/*********************************************************/
+
+
+/*find top freelancers started*/
+#Find-top-freelancers
+{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+#Find-top-freelancers-heading
+{
+  margin-top: 5%;
+  font-size: 40px;
+}
+.Find-top-freelancers-header
+{
+  margin-top: 2%;
+  color: #2777C6;
+  width: 70px;
+  border-top-style: solid;
+  border-width: 2px;
+}
+/*find top freelancers ended*/
+
+/*top 9 freelancers started*/
+#top-9-freelancers
+{
+width: 100%;
+height: 820px;
+}
+
+
+.row
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.col
+{
+  width: 33%;
+  text-align: center;
+  margin: 2%;
+  height: 180px;
+  border-style: ridge;
+  border-radius: 2%;
+}
+
+.col:hover
+{
+  text-decoration: underline;
+}
+
+.skills-para
+{
+  color: #9DA0A3;
+  font-size: 15px;
+  margin-top: 0%;
+}
+
+
+.all-skills
+{
+text-align: center;
+padding: 15px;
+border-radius: 7%;
+background-color: blueviolet;
+color: white;
+font-size: 20px;
+}
+
+.all-skills:hover
+{
+  background-color: #033066
+}
+
+/*top 9 freelancers ended*/
+
+
+/*why us started*/
+#why-us
+{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 5%;
+}
+#why-us-header
+{
+  color: white;
+  width: 70px;
+  border-top-style: solid;
+  border-width: 2px; 
+}
+.whyus-row
+{
+display: flex;
+flex-direction: row;
+}
+.whyus-col
+{
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+
+/*why us ended*/
+
+/*easy started*/
+#easy
+{
+  width: 100%;
+  height: 400px;
+}
+.easy-heading
+{
+padding-top: 3%;
+text-align: center;
+margin-bottom: 0%;
+padding-bottom: 0%;
+}
+
+.content-container
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.easy-content
+{
+  width: 25%;
+}
+/*easy ended*/
+
+
+/*third blue area*/
+
+#blue-area-third
+{
+margin-top: 1%;
+background-color: #33404F;
+width: 100%;
+height: 450px;
+margin-bottom: 0%;
+padding-bottom: 0%;
+display: flex;
+flex-direction: row;
+}
+
+#gurue
+{
+  margin-top: 8%;
+}
+#area-content
+{
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+#area-header
+{
+  color: white;
+  font-size: 25px;
+}
+.area-h4
+{
+  color: white;
+font-size: 20px;
+}
+/*  third blue area ended*/
+
+/*client-says started*/
+
+#client-says
+{
+  width: 100%;
+  height: 420px;
+}
+
+#ed
+{
+  border-radius: 50%;
+  margin-bottom: 0%;
+}
+
+/*client sayss end*/
+
+
+/*post job start*/
+#post-job
+{
+  width: 100%;
+  height: 250px;
+  background-color: #33404F;
+  color: white;
+}
+
+#post-header
+{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+/*post job end*/
+
+
+/*Browse Freelancers*/
+
+.o-flex-container__item
+{
+display:inline-block; 
+margin-left: 3%;
+width: 20%;
+color:#9DA0A3;
+margin-top: 0.5%;
+margin-bottom: 0.5%;
+}
+
+.location-item
+{ 
+display:inline-block; 
+margin-left: 3%;
+width: 20%;
+color:#9DA0A3;
+margin-top: 0.5%;
+margin-bottom: 0.5%;
+ 
+}
+.location-item-l
+{
+  display:inline-block; 
+  margin-left: 3%;
+  width: 20%;
+  color:white;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+    
+}
+
+.location-item-l:hover
+{
+  text-decoration: underline;
+  color: white;   
+}
+.main-heading
+{
+display:inline-block; 
+margin-left: 3%;
+width: 20%;
+color:white;
+margin-top: 0.5%;
+margin-bottom: 0.5%; 
+}
+#browse-button
+{
+  
+text-align: center;
+padding: 15px;
+border-radius: 7%;
+background-color: white;
+color: blue;
+font-size: 20px;
+}
+#browse-button:hover
+{
+  background-color: thistle;
+}
+
+#locations
+{
+margin-top: 3%;
+}
+
+#last-blue
+{
+  width: 100%;
+  height: 400px;
+  background-color: #33404F;
+  margin-top: 5%;
+}
+
+
+
+#connect-with-us
+{
+padding-top: 1.8%;
+color: white;
+width:30%
+}
+.contact-images
+{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin: 1%;
+}
+#image-container
+{
+  display: flex;
+  flex-direction: row;
+}
+#inside
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+a{
+  font-size: 15px;
+}
+
+
+a:hover
+{
+  color:blue;
+  text-decoration: underline;
+}
+
+
+#last-hr
+{
+  width: 100%;
+color:#9DA0A3;
+}
+#last-sen
+{
+  margin-left: 63%;
+  color:#9DA0A3;
+}
+#last-div
+{
+  display: flex;
+  flex-direction: row;
+}
